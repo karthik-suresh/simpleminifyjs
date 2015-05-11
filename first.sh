@@ -6,5 +6,7 @@
 
 ngmin "$1" app.angmin.js
 yui-compressor app.angmin.js>"$2"
+rm -f app.angmin.js
+
 
 
